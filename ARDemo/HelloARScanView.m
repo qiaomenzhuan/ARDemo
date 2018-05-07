@@ -360,10 +360,6 @@
         x = (width - x)/2.f + x*scalex;
     }
     
-    if (y == 0 || y == height) {
-        x = width/2.f;
-    }
-    
     //中心点
     UIView *viewPoint = [UIView new];
     viewPoint.clipsToBounds = YES;
