@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03831080AE7E9E3CBE492C8D /* libPods-ARDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43EF0151EA71ED35D4202E1B /* libPods-ARDemo.a */; };
+		95601452209C65B500321BE6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95601451209C65B500321BE6 /* AppDelegate.m */; };
+		95601455209C65B500321BE6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95601454209C65B500321BE6 /* ViewController.m */; };
+		95601458209C65B500321BE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95601456209C65B500321BE6 /* Main.storyboard */; };
+		9560145A209C65B600321BE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95601459209C65B600321BE6 /* Assets.xcassets */; };
+		9560145D209C65B600321BE6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9560145B209C65B600321BE6 /* LaunchScreen.storyboard */; };
+		95601460209C65B600321BE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9560145F209C65B600321BE6 /* main.m */; };
+		9560146A209C65B600321BE6 /* ARDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95601469209C65B600321BE6 /* ARDemoTests.m */; };
+		95601475209C65B600321BE6 /* ARDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95601474209C65B600321BE6 /* ARDemoUITests.m */; };
+		95601484209C67A100321BE6 /* HelloARScanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 95601483209C67A100321BE6 /* HelloARScanView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95601466209C65B600321BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95601445209C65B500321BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9560144C209C65B500321BE6;
+			remoteInfo = ARDemo;
+		};
+		95601471209C65B600321BE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95601445209C65B500321BE6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9560144C209C65B500321BE6;
+			remoteInfo = ARDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43EF0151EA71ED35D4202E1B /* libPods-ARDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ARDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9560144D209C65B500321BE6 /* ARDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95601450209C65B500321BE6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		95601451209C65B500321BE6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		95601453209C65B500321BE6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		95601454209C65B500321BE6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95601457209C65B500321BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95601459209C65B600321BE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9560145C209C65B600321BE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9560145E209C65B600321BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9560145F209C65B600321BE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95601465209C65B600321BE6 /* ARDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95601469209C65B600321BE6 /* ARDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARDemoTests.m; sourceTree = "<group>"; };
+		9560146B209C65B600321BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95601470209C65B600321BE6 /* ARDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95601474209C65B600321BE6 /* ARDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ARDemoUITests.m; sourceTree = "<group>"; };
+		95601476209C65B600321BE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95601482209C67A000321BE6 /* HelloARScanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloARScanView.h; sourceTree = "<group>"; };
+		95601483209C67A100321BE6 /* HelloARScanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloARScanView.m; sourceTree = "<group>"; };
+		A346CC0B6B8A6FD5792DB087 /* Pods-ARDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARDemo/Pods-ARDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B25AEC74FF4EC04F84343C5D /* Pods-ARDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARDemo/Pods-ARDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9560144A209C65B500321BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03831080AE7E9E3CBE492C8D /* libPods-ARDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95601462209C65B600321BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9560146D209C65B600321BE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E2F0BA7BFEF3E3DFB430193 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A346CC0B6B8A6FD5792DB087 /* Pods-ARDemo.debug.xcconfig */,
+				B25AEC74FF4EC04F84343C5D /* Pods-ARDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95601444209C65B500321BE6 = {
+			isa = PBXGroup;
+			children = (
+				9560144F209C65B500321BE6 /* ARDemo */,
+				95601468209C65B600321BE6 /* ARDemoTests */,
+				95601473209C65B600321BE6 /* ARDemoUITests */,
+				9560144E209C65B500321BE6 /* Products */,
+				5E2F0BA7BFEF3E3DFB430193 /* Pods */,
+				AA32F60F3A227E07A8DFBF9C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9560144E209C65B500321BE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9560144D209C65B500321BE6 /* ARDemo.app */,
+				95601465209C65B600321BE6 /* ARDemoTests.xctest */,
+				95601470209C65B600321BE6 /* ARDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9560144F209C65B500321BE6 /* ARDemo */ = {
+			isa = PBXGroup;
+			children = (
+				95601482209C67A000321BE6 /* HelloARScanView.h */,
+				95601483209C67A100321BE6 /* HelloARScanView.m */,
+				95601450209C65B500321BE6 /* AppDelegate.h */,
+				95601451209C65B500321BE6 /* AppDelegate.m */,
+				95601453209C65B500321BE6 /* ViewController.h */,
+				95601454209C65B500321BE6 /* ViewController.m */,
+				95601456209C65B500321BE6 /* Main.storyboard */,
+				95601459209C65B600321BE6 /* Assets.xcassets */,
+				9560145B209C65B600321BE6 /* LaunchScreen.storyboard */,
+				9560145E209C65B600321BE6 /* Info.plist */,
+				9560145F209C65B600321BE6 /* main.m */,
+			);
+			path = ARDemo;
+			sourceTree = "<group>";
+		};
+		95601468209C65B600321BE6 /* ARDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				95601469209C65B600321BE6 /* ARDemoTests.m */,
+				9560146B209C65B600321BE6 /* Info.plist */,
+			);
+			path = ARDemoTests;
+			sourceTree = "<group>";
+		};
+		95601473209C65B600321BE6 /* ARDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95601474209C65B600321BE6 /* ARDemoUITests.m */,
+				95601476209C65B600321BE6 /* Info.plist */,
+			);
+			path = ARDemoUITests;
+			sourceTree = "<group>";
+		};
+		AA32F60F3A227E07A8DFBF9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43EF0151EA71ED35D4202E1B /* libPods-ARDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9560144C209C65B500321BE6 /* ARDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95601479209C65B600321BE6 /* Build configuration list for PBXNativeTarget "ARDemo" */;
+			buildPhases = (
+				E22D6974FE0887B350D555FF /* [CP] Check Pods Manifest.lock */,
+				95601449209C65B500321BE6 /* Sources */,
+				9560144A209C65B500321BE6 /* Frameworks */,
+				9560144B209C65B500321BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARDemo;
+			productName = ARDemo;
+			productReference = 9560144D209C65B500321BE6 /* ARDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95601464209C65B600321BE6 /* ARDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9560147C209C65B600321BE6 /* Build configuration list for PBXNativeTarget "ARDemoTests" */;
+			buildPhases = (
+				95601461209C65B600321BE6 /* Sources */,
+				95601462209C65B600321BE6 /* Frameworks */,
+				95601463209C65B600321BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95601467209C65B600321BE6 /* PBXTargetDependency */,
+			);
+			name = ARDemoTests;
+			productName = ARDemoTests;
+			productReference = 95601465209C65B600321BE6 /* ARDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9560146F209C65B600321BE6 /* ARDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9560147F209C65B600321BE6 /* Build configuration list for PBXNativeTarget "ARDemoUITests" */;
+			buildPhases = (
+				9560146C209C65B600321BE6 /* Sources */,
+				9560146D209C65B600321BE6 /* Frameworks */,
+				9560146E209C65B600321BE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95601472209C65B600321BE6 /* PBXTargetDependency */,
+			);
+			name = ARDemoUITests;
+			productName = ARDemoUITests;
+			productReference = 95601470209C65B600321BE6 /* ARDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95601445209C65B500321BE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = csda_Chinadance;
+				TargetAttributes = {
+					9560144C209C65B500321BE6 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					95601464209C65B600321BE6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9560144C209C65B500321BE6;
+					};
+					9560146F209C65B600321BE6 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 9560144C209C65B500321BE6;
+					};
+				};
+			};
+			buildConfigurationList = 95601448209C65B500321BE6 /* Build configuration list for PBXProject "ARDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95601444209C65B500321BE6;
+			productRefGroup = 9560144E209C65B500321BE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9560144C209C65B500321BE6 /* ARDemo */,
+				95601464209C65B600321BE6 /* ARDemoTests */,
+				9560146F209C65B600321BE6 /* ARDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9560144B209C65B500321BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9560145D209C65B600321BE6 /* LaunchScreen.storyboard in Resources */,
+				9560145A209C65B600321BE6 /* Assets.xcassets in Resources */,
+				95601458209C65B500321BE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95601463209C65B600321BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9560146E209C65B600321BE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E22D6974FE0887B350D555FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95601449209C65B500321BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95601455209C65B500321BE6 /* ViewController.m in Sources */,
+				95601460209C65B600321BE6 /* main.m in Sources */,
+				95601452209C65B500321BE6 /* AppDelegate.m in Sources */,
+				95601484209C67A100321BE6 /* HelloARScanView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95601461209C65B600321BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9560146A209C65B600321BE6 /* ARDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9560146C209C65B600321BE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95601475209C65B600321BE6 /* ARDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95601467209C65B600321BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9560144C209C65B500321BE6 /* ARDemo */;
+			targetProxy = 95601466209C65B600321BE6 /* PBXContainerItemProxy */;
+		};
+		95601472209C65B600321BE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9560144C209C65B500321BE6 /* ARDemo */;
+			targetProxy = 95601471209C65B600321BE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95601456209C65B500321BE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95601457209C65B500321BE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9560145B209C65B600321BE6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9560145C209C65B600321BE6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95601477209C65B600321BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95601478209C65B600321BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9560147A209C65B600321BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A346CC0B6B8A6FD5792DB087 /* Pods-ARDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = ARDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.ARDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9560147B209C65B600321BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B25AEC74FF4EC04F84343C5D /* Pods-ARDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = ARDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.ARDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9560147D209C65B600321BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = ARDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.ARDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDemo.app/ARDemo";
+			};
+			name = Debug;
+		};
+		9560147E209C65B600321BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = ARDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.ARDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARDemo.app/ARDemo";
+			};
+			name = Release;
+		};
+		95601480209C65B600321BE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = ARDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.ARDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARDemo;
+			};
+			name = Debug;
+		};
+		95601481209C65B600321BE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = ARDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.ARDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95601448209C65B500321BE6 /* Build configuration list for PBXProject "ARDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95601477209C65B600321BE6 /* Debug */,
+				95601478209C65B600321BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95601479209C65B600321BE6 /* Build configuration list for PBXNativeTarget "ARDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9560147A209C65B600321BE6 /* Debug */,
+				9560147B209C65B600321BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9560147C209C65B600321BE6 /* Build configuration list for PBXNativeTarget "ARDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9560147D209C65B600321BE6 /* Debug */,
+				9560147E209C65B600321BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9560147F209C65B600321BE6 /* Build configuration list for PBXNativeTarget "ARDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95601480209C65B600321BE6 /* Debug */,
+				95601481209C65B600321BE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95601445209C65B500321BE6 /* Project object */;
+}
