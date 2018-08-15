@@ -330,7 +330,9 @@
     for (int i = 0; i < count; i++) {
         float second = (float)i/(float)count;
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(second * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [self ripples:self.ripplesBackView];
+            @autoreleasepool {
+                [self ripples:self.ripplesBackView];
+            }
         });
     }
 }
